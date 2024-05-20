@@ -9,7 +9,7 @@ class WordplayBase(SQLModel):
     id: Optional[int] = Field(default=None, primary_key=True)
     word: str
     translation: str
-    flag: Optional[str] = Field(default=None)
+    tags: Optional[str] = Field(default=None)
     datetime: datetime
     remark: Optional[dict] = Field(default=None, sa_column=Column(JSON))
 

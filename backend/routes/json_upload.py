@@ -14,14 +14,13 @@ from database import engine, get_session
 
 router = APIRouter()
 
-# 设置日志
+# Set up logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Route to process JSON file and insert data into the database
 @router.post("/import_json/")
 async def import_json(file: UploadFile = File(...), session: Session = Depends(get_session)):
-    logger = logging.getLogger(__name__)
     logger.info("Received file upload request.")
     try:
         file_contents = await file.read()
@@ -38,16 +37,21 @@ async def import_json(file: UploadFile = File(...), session: Session = Depends(g
 
     try:
         for entry in data:
-            if len(entry) != 3:
-                logger.warning(f"Skipping invalid entry: {entry}")
-                continue  # 跳过无效条目
-            word = entry[1]
-            translation = entry[2]
+            logger.warning(f"Processing entry2: {entry}")
+            if "ori" not in entry or "trans" not in entry:
+                logger.warning(f"Skipping invalid entry2: {entry}")
+                continue  # Skip invalid entry
+            word = entry["ori"]
+            translation = entry["trans"]
+            tags = entry.get("tags", None)
+            remark = entry.get("remark", {})
+
             new_word = Wordplay(
                 word=word,
                 translation=translation,
+                tags=tags,
                 datetime=datetime_now,
-                audio=None  # 明确设置 audio 字段为 None
+                remark=remark
             )
             session.add(new_word)
         session.commit()

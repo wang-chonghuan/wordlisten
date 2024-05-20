@@ -9,7 +9,7 @@ interface GenerateAudioButtonProps {
 const GenerateAudioButton: React.FC<GenerateAudioButtonProps> = ({ fetchWords }) => {
   const generateAudio = async () => {
     try {
-      const response = await axios.post('http://localhost:8000/generate_audio/');
+      const response = await axios.post('http://localhost:8000/generate_audio_azure/');
       message.success('Audio generated for records with empty audio fields.');
       console.log(response.data);
       fetchWords();

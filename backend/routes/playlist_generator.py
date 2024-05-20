@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlmodel import Session, select
 from datetime import datetime
-from gtts import gTTS
+from azure.cognitiveservices.speech import SpeechConfig, SpeechSynthesizer, AudioConfig, ResultReason, CancellationReason
 from pydub import AudioSegment
 import os
 from typing import List
@@ -24,21 +24,33 @@ if not os.path.exists(audio_files_path):
 def generate_silence(duration_ms):
     return AudioSegment.silent(duration=duration_ms)
 
-# Helper function to convert text to speech
-def text_to_speech(text, lang='de'):
-    tts = gTTS(text=text, lang=lang)
-    tts.save("temp.mp3")
-    audio = AudioSegment.from_mp3("temp.mp3")
-    os.remove("temp.mp3")
+# Helper function to convert text to speech using Azure Cognitive Services
+def azure_text_to_speech(text, lang='de'):
+    speech_key = "c4db500f6e5e4c6ca166d8fd507b6e34"  # 替换为你的 Azure 订阅密钥
+    service_region = "germanywestcentral"  # 替换为你的服务区域
+    
+    speech_config = SpeechConfig(subscription=speech_key, region=service_region)
+    audio_config = AudioConfig(filename="temp.wav")
+
+    synthesizer = SpeechSynthesizer(speech_config=speech_config, audio_config=audio_config)
+    result = synthesizer.speak_text_async(text).get()
+
+    if result.reason == ResultReason.Canceled:
+        cancellation_details = result.cancellation_details
+        logger.error(f"Speech synthesis canceled: {cancellation_details.reason}")
+        if cancellation_details.reason == CancellationReason.Error:
+            logger.error(f"Error details: {cancellation_details.error_details}")
+        raise HTTPException(status_code=500, detail="Failed to generate speech")
+
+    # 使用上下文管理器处理音频文件
+    with open("temp.wav", "rb") as audio_file:
+        audio = AudioSegment.from_file(audio_file, format="wav")
+    
     return audio
 
-# Helper function to convert translation to speech
+# Helper function to convert translation to speech using Azure Cognitive Services
 def translation_to_speech(text, lang='en'):
-    tts = gTTS(text=text, lang=lang)
-    tts.save("temp.mp3")
-    audio = AudioSegment.from_mp3("temp.mp3")
-    os.remove("temp.mp3")
-    return audio
+    return azure_text_to_speech(text, lang=lang)
 
 @router.post("/generate_custom_audio/")
 async def generate_custom_audio(word_id_list: WordIdList, session: Session = Depends(get_session)):
@@ -56,7 +68,7 @@ async def generate_custom_audio(word_id_list: WordIdList, session: Session = Dep
         combined_audio = AudioSegment.empty()
 
         for record in results:
-            german_audio = text_to_speech(record.word, lang='de')
+            german_audio = azure_text_to_speech(record.word, lang='de')
             english_audio = translation_to_speech(record.translation, lang='en')
 
             # 拼接：德语 -> 1秒停顿 -> 德语 -> 1秒停顿 -> 英语 -> 1秒停顿
