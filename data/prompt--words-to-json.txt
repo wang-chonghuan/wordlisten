@@ -1,0 +1,40 @@
+Guten Tag, Ihre Bestellung.
+Zahlen Sie zusammen oder getrennt?
+Was kostet das?
+Gut, Moment. 
+Die drei Pizzen mit Salami sind 22,50. 
+Dann haben wir eine Pizza Thunfisch, eine Pizza Hawaii ohne Schinken, 18 Euro . 
+Das macht zusammen 40,50 Euro. 
+Zahlen Sie bar oder mit Karte? 
+Ich zahle bar. 
+Hier sind 45 Euro. 
+Das stimmt so. 
+Hier ist die Rechnung.
+Wer bekommt die Hawaii ohne Schinken?
+Und noch eine Salami.
+Wie viel kostet die Pizza?
+Zehn Euro plus Trinkgeld .
+Du bist eingeladen !
+Das ist vielleicht die letzte Pizza, die ich hier essen werde.
+Stimmt.
+Nawin geht weg.
+Eine Abschiedsparty.
+Guten Appetit jetzt!
+
+把以上每句德语都转换成下面的json格式，最后返回整个json数组。翻译时注意尽量机械翻译。grammer部分，从以下几个方面进行详细解读：
+
+1. 单词变位：包括动词、名词、形容词等的变位形式。
+2. 语序：分析句子的语序，特别是主语、动词和宾语的位置，说明是否有倒装或从句。
+3. 句子结构：解释句子的整体结构，如简单句、复合句、从句等。
+4. 重要语法点：如双宾语、介词短语、连词、频率副词等，提供深入的语法解释。
+5. 其他重要的语法信息：根据需要补充其他语法信息，帮助A1初学者更好地理解句子结构和用法。
+
+translation和grammer都用英语，tags统一为NW-A1-16
+
+格式：
+    {
+        words: ""
+        translation: ""
+        grammer: ""
+        tags: ""
+    }

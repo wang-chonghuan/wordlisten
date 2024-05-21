@@ -1,0 +1,134 @@
+[
+    {
+        "words": "Guten Tag, Ihre Bestellung.",
+        "translation": "Good day, your order.",
+        "grammer": "Greeting and simple present tense. 'Ihre' is a formal possessive pronoun. The sentence is a simple declarative statement.",
+        "tags": "NW-A1-16"
+    },
+    {
+        "words": "Zahlen Sie zusammen oder getrennt?",
+        "translation": "Are you paying together or separately?",
+        "grammer": "Question in present tense. 'Zahlen' is the verb 'to pay'. 'Sie' is formal 'you'. The structure involves subject-verb inversion.",
+        "tags": "NW-A1-16"
+    },
+    {
+        "words": "Was kostet das?",
+        "translation": "How much does it cost?",
+        "grammer": "Question in present tense. 'Kostet' is the third person singular of 'kosten' (to cost). The sentence follows the structure of question word + verb + subject.",
+        "tags": "NW-A1-16"
+    },
+    {
+        "words": "Gut, Moment.",
+        "translation": "Good, one moment.",
+        "grammer": "Short sentence using imperative 'Moment' (one moment). 'Gut' is an interjection here.",
+        "tags": "NW-A1-16"
+    },
+    {
+        "words": "Die drei Pizzen mit Salami sind 22,50.",
+        "translation": "The three pizzas with salami are 22.50.",
+        "grammer": "Plural subject 'drei Pizzen' with verb 'sind'. 'Mit' (with) introduces a prepositional phrase. The sentence is a declarative statement.",
+        "tags": "NW-A1-16"
+    },
+    {
+        "words": "Dann haben wir eine Pizza Thunfisch, eine Pizza Hawaii ohne Schinken, 18 Euro.",
+        "translation": "Then we have a tuna pizza, a Hawaii pizza without ham, 18 euros.",
+        "grammer": "Listing items with 'haben' (to have) in present tense. 'Ohne' (without) introduces a prepositional phrase. The sentence is a declarative statement.",
+        "tags": "NW-A1-16"
+    },
+    {
+        "words": "Das macht zusammen 40,50 Euro.",
+        "translation": "That makes 40.50 euros in total.",
+        "grammer": "Simple present tense with 'machen' (to make). 'Zusammen' (in total) is an adverb. The sentence is a declarative statement.",
+        "tags": "NW-A1-16"
+    },
+    {
+        "words": "Zahlen Sie bar oder mit Karte?",
+        "translation": "Are you paying in cash or by card?",
+        "grammer": "Question in present tense. 'Bar' means 'cash', 'mit Karte' means 'by card'. The structure involves subject-verb inversion.",
+        "tags": "NW-A1-16"
+    },
+    {
+        "words": "Ich zahle bar.",
+        "translation": "I am paying in cash.",
+        "grammer": "Simple present tense. 'Zahle' is the first person singular of 'zahlen'. The sentence is a declarative statement.",
+        "tags": "NW-A1-16"
+    },
+    {
+        "words": "Hier sind 45 Euro.",
+        "translation": "Here are 45 euros.",
+        "grammer": "Present tense. 'Hier sind' (here are) followed by the amount. The sentence is a declarative statement.",
+        "tags": "NW-A1-16"
+    },
+    {
+        "words": "Das stimmt so.",
+        "translation": "Keep the change.",
+        "grammer": "Phrase meaning 'That's correct' or 'Keep the change'. The sentence is a declarative statement.",
+        "tags": "NW-A1-16"
+    },
+    {
+        "words": "Hier ist die Rechnung.",
+        "translation": "Here is the bill.",
+        "grammer": "Simple present tense. 'Rechnung' means 'bill'. The structure is subject-verb inversion.",
+        "tags": "NW-A1-16"
+    },
+    {
+        "words": "Wer bekommt die Hawaii ohne Schinken?",
+        "translation": "Who gets the Hawaii pizza without ham?",
+        "grammer": "Question in present tense. 'Wer' means 'who', 'bekommt' is 'gets'. 'Ohne' (without) introduces a prepositional phrase. The structure is subject-verb inversion.",
+        "tags": "NW-A1-16"
+    },
+    {
+        "words": "Und noch eine Salami.",
+        "translation": "And another salami.",
+        "grammer": "Short sentence adding another item. 'Noch' means 'another'.",
+        "tags": "NW-A1-16"
+    },
+    {
+        "words": "Wie viel kostet die Pizza?",
+        "translation": "How much does the pizza cost?",
+        "grammer": "Question in present tense. 'Wie viel' means 'how much'. The structure is question word + verb + subject.",
+        "tags": "NW-A1-16"
+    },
+    {
+        "words": "Zehn Euro plus Trinkgeld.",
+        "translation": "Ten euros plus tip.",
+        "grammer": "Simple statement. 'Trinkgeld' means 'tip'.",
+        "tags": "NW-A1-16"
+    },
+    {
+        "words": "Du bist eingeladen!",
+        "translation": "You are invited!",
+        "grammer": "Present tense. 'Einladen' means 'to invite'. The sentence is a declarative statement.",
+        "tags": "NW-A1-16"
+    },
+    {
+        "words": "Das ist vielleicht die letzte Pizza, die ich hier essen werde.",
+        "translation": "This might be the last pizza I eat here.",
+        "grammer": "Future tense with 'werde' (will). Complex sentence with a relative clause 'die ich hier essen werde'. 'Vielleicht' (maybe) is an adverb indicating uncertainty.",
+        "tags": "NW-A1-16"
+    },
+    {
+        "words": "Stimmt.",
+        "translation": "Correct.",
+        "grammer": "Affirmative statement. 'Stimmt' is the third person singular of 'stimmen' (to be correct).",
+        "tags": "NW-A1-16"
+    },
+    {
+        "words": "Nawin geht weg.",
+        "translation": "Nawin is leaving.",
+        "grammer": "Present tense. 'Geht weg' means 'is leaving'. The sentence is a declarative statement.",
+        "tags": "NW-A1-16"
+    },
+    {
+        "words": "Eine Abschiedsparty.",
+        "translation": "A farewell party.",
+        "grammer": "Noun phrase. 'Abschiedsparty' means 'farewell party'. The sentence is a declarative statement.",
+        "tags": "NW-A1-16"
+    },
+    {
+        "words": "Guten Appetit jetzt!",
+        "translation": "Enjoy your meal now!",
+        "grammer": "Common phrase used before eating. 'Guten Appetit' means 'Enjoy your meal'. The sentence is an exclamatory statement.",
+        "tags": "NW-A1-16"
+    }
+]

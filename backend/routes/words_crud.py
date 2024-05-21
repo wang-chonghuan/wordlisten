@@ -7,6 +7,7 @@ from typing import Optional
 from datetime import datetime
 from sqlalchemy.dialects.sqlite import BLOB
 from sqlalchemy import JSON, Column
+from sqlalchemy import and_
 import databases
 from contextlib import asynccontextmanager
 import json
@@ -53,10 +54,42 @@ async def read_word(word_id: int, session: Session = Depends(get_session)):
         id=word.id,
         word=word.word,
         translation=word.translation,
-        flag=word.flag,
+        tags=word.tags,
         datetime=word.datetime,
         remark=word.remark,
         audio=base64.b64encode(word.audio).decode('utf-8') if word.audio else None
     )
     
     return word_detail
+
+# Helper function to build tag filtering expression
+def build_tag_filter_expression(tag_list):
+    return and_(*[Wordplay.tags.like(f"%{tag}%") for tag in tag_list])
+
+# New endpoint to get words by tags
+@router.get("/words", response_model=list[WordplayDetail])
+async def read_words_by_tags(tags: str, session: Session = Depends(get_session)):
+    tag_list = tags.split(',')
+
+    # Query to filter words by tags
+    tag_filter_expression = build_tag_filter_expression(tag_list)
+    statement = select(Wordplay).where(tag_filter_expression)
+    words = session.exec(statement).all()
+
+    matching_words = []
+    for word in words:
+        word_detail = WordplayDetail(
+            id=word.id,
+            word=word.word,
+            translation=word.translation,
+            tags=word.tags,
+            datetime=word.datetime,
+            remark=word.remark,
+            audio=base64.b64encode(word.audio).decode('utf-8') if word.audio else None
+        )
+        matching_words.append(word_detail)
+    
+    if not matching_words:
+        raise HTTPException(status_code=404, detail="No matching words found")
+
+    return matching_words
