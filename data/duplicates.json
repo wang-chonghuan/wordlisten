@@ -1,0 +1,620 @@
+{
+    "aufstehen": [
+        {
+            "id": 15,
+            "word": "aufstehen",
+            "word-translation": "to get up",
+            "example": "Wann stehst du auf?",
+            "example-translation": "When do you get up?",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 16,
+            "word": "aufstehen",
+            "word-translation": "to get up",
+            "example": "Wann stehst du auf?",
+            "example-translation": "When do you get up?",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "bis": [
+        {
+            "id": 21,
+            "word": "bis",
+            "word-translation": "until / to",
+            "example": "Sie bleibt im Café bis der Regen aufhört.",
+            "example-translation": "She's staying at the cafe until the rain stops.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 22,
+            "word": "bis",
+            "word-translation": "until/to",
+            "example": "Ich bleibe bis morgen.",
+            "example-translation": "I stay until tomorrow.",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "das Gemüse": [
+        {
+            "id": 36,
+            "word": "das Gemüse",
+            "word-translation": "the vegetables",
+            "example": "Gemüse kaufe ich beim Gemüsehändler.",
+            "example-translation": "I buy vegetables at the greengrocer.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 37,
+            "word": "das Gemüse",
+            "word-translation": "the vegetables",
+            "example": "Wo finde ich Obst und Gemüse?",
+            "example-translation": "Where can I find fruit and vegetables?",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "das Restaurant": [
+        {
+            "id": 46,
+            "word": "das Restaurant",
+            "word-translation": "the restaurant",
+            "example": "Wir gehen ins Restaurant.",
+            "example-translation": "We go to the restaurant.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 47,
+            "word": "das Restaurant",
+            "word-translation": "the restaurant",
+            "example": "Mir gefällt das kleine Restaurant an der Ecke.",
+            "example-translation": "I like the little restaurant on the corner.",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "das Schlagzeug": [
+        {
+            "id": 49,
+            "word": "das Schlagzeug",
+            "word-translation": "the drums",
+            "example": "Er spielt Schlagzeug.",
+            "example-translation": "He plays the drums.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 50,
+            "word": "das Schlagzeug",
+            "word-translation": "the drums",
+            "example": "Er spielt Schlagzeug.",
+            "example-translation": "He plays the drums.",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "der Bahnhof": [
+        {
+            "id": 57,
+            "word": "der Bahnhof",
+            "word-translation": "the train station",
+            "example": "Der Bahnhof liegt am Stadtrand.",
+            "example-translation": "The train station is on the outskirts of the city.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 58,
+            "word": "der Bahnhof",
+            "word-translation": "the train station",
+            "example": "Wo ist der Bahnhof?",
+            "example-translation": "Where is the train station?",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "die Geige": [
+        {
+            "id": 118,
+            "word": "die Geige",
+            "word-translation": "the violin",
+            "example": "Sie spielt Geige im Orchester.",
+            "example-translation": "She plays violin in the orchestra.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 119,
+            "word": "die Geige",
+            "word-translation": "the violin",
+            "example": "Sie spielt Geige im Orchester.",
+            "example-translation": "She plays violin in the orchestra.",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "die Straße": [
+        {
+            "id": 138,
+            "word": "die Straße",
+            "word-translation": "the street",
+            "example": "Es gibt sechs weitere Häuser in unserer Straße.",
+            "example-translation": "There are six other houses on our street.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 139,
+            "word": "die Straße",
+            "word-translation": "the street",
+            "example": "Wo ist die Hauptstraße?",
+            "example-translation": "Where is the high street?",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "die Wohnung": [
+        {
+            "id": 148,
+            "word": "die Wohnung",
+            "word-translation": "the flat",
+            "example": "Ihre neue Wohnung ist sehr modern.",
+            "example-translation": "Her new flat is very modern.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 149,
+            "word": "die Wohnung",
+            "word-translation": "the flat",
+            "example": "Ich suche eine Wohnung.",
+            "example-translation": "I'm looking for a flat.",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "dreizehn, vierzehn, fünfzehn": [
+        {
+            "id": 152,
+            "word": "dreizehn, vierzehn, fünfzehn",
+            "word-translation": "thirteen, fourteen, fifteen",
+            "example": "Sie sind vierzehn Jahre alt.",
+            "example-translation": "They are fourteen years old.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 153,
+            "word": "dreizehn, vierzehn, fünfzehn",
+            "word-translation": "thirteen, fourteen, fifteen",
+            "example": "Er ist fünfzehn Jahre alt.",
+            "example-translation": "He is fifteen years old.",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "durch": [
+        {
+            "id": 158,
+            "word": "durch",
+            "word-translation": "through",
+            "example": "Ich laufe durch den Park.",
+            "example-translation": "I walk through the park.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 159,
+            "word": "durch",
+            "word-translation": "through",
+            "example": "Wir gehen durch den Wald.",
+            "example-translation": "We are walking through the forest.",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "ein bisschen": [
+        {
+            "id": 162,
+            "word": "ein bisschen",
+            "word-translation": "a little bit",
+            "example": "Ich brauche ein bisschen Zucker.",
+            "example-translation": "I need a little bit of sugar.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 163,
+            "word": "ein bisschen",
+            "word-translation": "a little",
+            "example": "Mein Vater ist ein bisschen unsympathisch.",
+            "example-translation": "My father is a little unlikeable.",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "Entschuldigung!": [
+        {
+            "id": 173,
+            "word": "Entschuldigung!",
+            "word-translation": "Sorry! / Excuse me!",
+            "example": "Kein Problem.",
+            "example-translation": "No problem.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 174,
+            "word": "Entschuldigung!",
+            "word-translation": "Excuse me!",
+            "example": "Entschuldigung! Wo ist der Bahnhof?",
+            "example-translation": "Excuse me! Where is the train station?",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "entspannen": [
+        {
+            "id": 175,
+            "word": "entspannen",
+            "word-translation": "to relax",
+            "example": "Ich entspanne in der Badewanne.",
+            "example-translation": "I relax in the bath.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 176,
+            "word": "entspannen",
+            "word-translation": "to relax",
+            "example": "Ich entspanne in der Badewanne.",
+            "example-translation": "I relax in the bath.",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "fernsehen": [
+        {
+            "id": 197,
+            "word": "fernsehen",
+            "word-translation": "to watch TV",
+            "example": "Abends sehe ich normalerweise mit meinen Mitbewohnern fern.",
+            "example-translation": "I usually watch TV with my housemates in the evening.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 198,
+            "word": "fernsehen",
+            "word-translation": "to watch TV",
+            "example": "Wir sehen nur abends fern.",
+            "example-translation": "We only watch TV in the evening.",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "Freunde treffen": [
+        {
+            "id": 201,
+            "word": "Freunde treffen",
+            "word-translation": "to meet up with friends",
+            "example": "Sie trifft ihre Freunde jeden Samstag.",
+            "example-translation": "She meets her friends every Saturday.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 202,
+            "word": "Freunde treffen",
+            "word-translation": "to meet up with friends",
+            "example": "Sie trifft ihre Freunde jeden Samstag.",
+            "example-translation": "She meets her friends every Saturday.",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "für": [
+        {
+            "id": 209,
+            "word": "für",
+            "word-translation": "for / in favour of",
+            "example": "Er kocht für eine Freundin.",
+            "example-translation": "He's cooking for a friend.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 210,
+            "word": "für",
+            "word-translation": "for/in favour of",
+            "example": "Das Geschenk ist für dich.",
+            "example-translation": "The gift is for you.",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "gegen": [
+        {
+            "id": 211,
+            "word": "gegen",
+            "word-translation": "against",
+            "example": "Ich spiele manchmal gegen unsere Nachbarn Fußball.",
+            "example-translation": "I play football against our neighbours sometimes.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 212,
+            "word": "gegen",
+            "word-translation": "against",
+            "example": "Ich bin gegen die Idee.",
+            "example-translation": "I am against the idea.",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "geradeaus": [
+        {
+            "id": 216,
+            "word": "geradeaus",
+            "word-translation": "straight ahead",
+            "example": "Fahrt immer geradeaus bis zum Ende der Straße.",
+            "example-translation": "Drive straight on to the end of the street.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 217,
+            "word": "geradeaus",
+            "word-translation": "straight ahead",
+            "example": "Der Bahnhof ist hier geradeaus.",
+            "example-translation": "The train station is straight ahead.",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "günstig": [
+        {
+            "id": 224,
+            "word": "günstig",
+            "word-translation": "cheap",
+            "example": "Das Restaurant ist günstig.",
+            "example-translation": "The restaurant is cheap.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 225,
+            "word": "günstig",
+            "word-translation": "good value",
+            "example": "Die Cafés in Kreuzberg sind günstig.",
+            "example-translation": "The cafes in Kreuzberg are good value.",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "Ich habe keine Geschwister.": [
+        {
+            "id": 259,
+            "word": "Ich habe keine Geschwister.",
+            "word-translation": "I have no siblings.",
+            "example": "Ich bin Einzelkind.",
+            "example-translation": "I am an only child.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 260,
+            "word": "Ich habe keine Geschwister.",
+            "word-translation": "I don't have any siblings.",
+            "example": "Ich bin Einzelkind.",
+            "example-translation": "I am an only child.",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "Ich spreche Deutsch.": [
+        {
+            "id": 275,
+            "word": "Ich spreche Deutsch.",
+            "word-translation": "I speak German.",
+            "example": "Wie lange lernst du schon Deutsch?",
+            "example-translation": "How long have you been learning German?",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 276,
+            "word": "Ich spreche Deutsch.",
+            "word-translation": "I speak German.",
+            "example": "Wo hast du Deutsch gelernt?",
+            "example-translation": "Where did you learn German?",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 277,
+            "word": "Ich spreche Deutsch.",
+            "word-translation": "I speak German.",
+            "example": "Sprechen Sie noch andere Sprachen?",
+            "example-translation": "Do you speak any other languages?",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "Ja": [
+        {
+            "id": 297,
+            "word": "Ja",
+            "word-translation": "Yes",
+            "example": "Ja, bitte.",
+            "example-translation": "Yes, please.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 298,
+            "word": "Ja",
+            "word-translation": "Yes",
+            "example": "Ja, ich verstehe.",
+            "example-translation": "Yes, I understand.",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "laufen": [
+        {
+            "id": 310,
+            "word": "laufen",
+            "word-translation": "to walk",
+            "example": "Läufst du zur Arbeit?",
+            "example-translation": "Do you walk to work?",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 311,
+            "word": "laufen",
+            "word-translation": "to walk",
+            "example": "Läufst du zur Arbeit?",
+            "example-translation": "Do you walk to work?",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 312,
+            "word": "laufen",
+            "word-translation": "to walk",
+            "example": "Lass uns zum Café laufen.",
+            "example-translation": "Let's walk to the café.",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "lesen": [
+        {
+            "id": 315,
+            "word": "lesen",
+            "word-translation": "to read",
+            "example": "Ich lese gerne Bücher.",
+            "example-translation": "I like to read books.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 316,
+            "word": "lesen",
+            "word-translation": "to read",
+            "example": "Sofia liest gern Bücher.",
+            "example-translation": "Sofia likes to read books.",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "sich die Haare bürsten": [
+        {
+            "id": 379,
+            "word": "sich die Haare bürsten",
+            "word-translation": "to brush your hair",
+            "example": "Sie bürstet sich die Haare.",
+            "example-translation": "She's brushing her hair.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 380,
+            "word": "sich die Haare bürsten",
+            "word-translation": "to brush your hair",
+            "example": "Sie bürstet sich die Haare.",
+            "example-translation": "She's brushing her hair.",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "sie": [
+        {
+            "id": 385,
+            "word": "sie",
+            "word-translation": "she",
+            "example": "Sie ist meine Freundin.",
+            "example-translation": "She is my friend.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 386,
+            "word": "sie",
+            "word-translation": "they",
+            "example": "Sie sind meine Freunde.",
+            "example-translation": "They are my friends.",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "teuer": [
+        {
+            "id": 406,
+            "word": "teuer",
+            "word-translation": "expensive",
+            "example": "Das Luxushotel ist teuer.",
+            "example-translation": "The luxury hotel is expensive.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 407,
+            "word": "teuer",
+            "word-translation": "expensive",
+            "example": "Das Café am Gendarmenmarkt ist teuer.",
+            "example-translation": "The cafe on Gendarmenmarkt is expensive.",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "Tschüss!": [
+        {
+            "id": 408,
+            "word": "Tschüss!",
+            "word-translation": "Bye!",
+            "example": "Ich muss gehen. Tschüss!",
+            "example-translation": "I have to go. Bye!",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 409,
+            "word": "Tschüss!",
+            "word-translation": "Bye!",
+            "example": "Bis morgen! Tschüss!",
+            "example-translation": "See you tomorrow! Bye!",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "um": [
+        {
+            "id": 410,
+            "word": "um",
+            "word-translation": "at / around",
+            "example": "Der Laden ist gleich um die Ecke.",
+            "example-translation": "The store is right around the corner.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 411,
+            "word": "um",
+            "word-translation": "at/around",
+            "example": "Wir treffen uns um 5 Uhr.",
+            "example-translation": "We meet at 5 o'clock.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 412,
+            "word": "um",
+            "word-translation": "at / around",
+            "example": "Der Laden ist gleich um die Ecke.",
+            "example-translation": "The store is right around the corner.",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "Wie viel kostet das?": [
+        {
+            "id": 447,
+            "word": "Wie viel kostet das?",
+            "word-translation": "How much does that cost?",
+            "example": "Das kostet 5 Euro.",
+            "example-translation": "That costs 5 euros.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 448,
+            "word": "Wie viel kostet das?",
+            "word-translation": "How much does that cost?",
+            "example": "Das kostet 3 Euro.",
+            "example-translation": "That costs 3 euros.",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "Wo wohnst du?": [
+        {
+            "id": 461,
+            "word": "Wo wohnst du?",
+            "word-translation": "Where do you live?",
+            "example": "Ich wohne in Berlin.",
+            "example-translation": "I live in Berlin.",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 462,
+            "word": "Wo wohnst du?",
+            "word-translation": "Where do you live?",
+            "example": "Ich wohne in Frankfurt.",
+            "example-translation": "I live in Frankfurt.",
+            "date": "2024-05-29-11-21-08"
+        }
+    ],
+    "Zahlen, bitte!": [
+        {
+            "id": 467,
+            "word": "Zahlen, bitte!",
+            "word-translation": "The bill, please!",
+            "example": "Kellner! Zahlen, bitte!",
+            "example-translation": "Waiter! The bill, please!",
+            "date": "2024-05-29-11-21-08"
+        },
+        {
+            "id": 468,
+            "word": "Zahlen, bitte!",
+            "word-translation": "I'd like to pay, please!",
+            "example": "Entschuldigung, zahlen bitte!",
+            "example-translation": "Excuse me, I'd like to pay, please!",
+            "date": "2024-05-29-11-21-08"
+        }
+    ]
+}

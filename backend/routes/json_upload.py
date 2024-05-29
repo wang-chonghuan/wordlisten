@@ -33,27 +33,32 @@ async def import_json(file: UploadFile = File(...), session: Session = Depends(g
         logger.error(f"Unexpected error reading file: {e}")
         raise HTTPException(status_code=500, detail=f"Internal server error: {e}")
 
-    datetime_now = datetime.now()
-
     try:
         for entry in data:
-            logger.warning(f"Processing entry2: {entry}")
-            if "ori" not in entry or "trans" not in entry:
-                logger.warning(f"Skipping invalid entry2: {entry}")
+            logger.warning(f"Processing entry: {entry}")
+            if "word" not in entry or "word-translation" not in entry:
+                logger.warning(f"Skipping invalid entry: {entry}")
                 continue  # Skip invalid entry
-            word = entry["ori"]
-            translation = entry["trans"]
-            tags = entry.get("tags", None)
-            remark = entry.get("remark", {})
+
+            word_id = entry.get("id")
+            word = entry["word"]
+            word_translation = entry["word-translation"]
+            example = entry.get("example", "").strip()
+            example_translation = entry.get("example-translation", "").strip()
+            date_str = entry["date"]
+            datetime_obj = datetime.strptime(date_str, "%Y-%m-%d-%H-%M-%S")
 
             new_word = Wordplay(
+                id=word_id,
                 word=word,
-                translation=translation,
-                tags=tags,
-                datetime=datetime_now,
-                remark=remark
+                word_translation=word_translation,
+                example=example,
+                example_translation=example_translation,
+                tags='busuu-a1-word',
+                datetime=datetime_obj
             )
             session.add(new_word)
+
         session.commit()
         logger.info("Data imported successfully.")
     except Exception as e:

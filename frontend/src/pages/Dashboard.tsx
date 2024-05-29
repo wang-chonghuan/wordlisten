@@ -13,12 +13,19 @@ const Dashboard: React.FC = () => {
   const [wordDetails, setWordDetails] = useState<any | null>(null);
   const [selectedWords, setSelectedWords] = useState<any[]>([]);
 
+  // Handle selection change and shuffle IDs
   const handleSelectionChange = async (selectedWords: any[]) => {
     setSelectedWords(selectedWords);
     console.log("Selected words:", selectedWords);
 
     // 提取选中单词的 ID 列表
-    const selectedWordIds = selectedWords.map(word => word.id);
+    let selectedWordIds = selectedWords.map(word => word.id);
+
+    // Fisher-Yates 洗牌算法打乱数组顺序
+    for (let i = selectedWordIds.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [selectedWordIds[i], selectedWordIds[j]] = [selectedWordIds[j], selectedWordIds[i]];
+    }
 
     try {
       // 向后端发送 POST 请求，生成音频文件

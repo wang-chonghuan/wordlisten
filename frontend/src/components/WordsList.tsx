@@ -8,6 +8,7 @@ interface WordsListProps {
 
 const WordsList: React.FC<WordsListProps> = ({ words, onSelectionChange }) => {
   const [selectedWordIds, setSelectedWordIds] = useState<number[]>([]);
+  const [selectAll, setSelectAll] = useState<boolean>(false);
 
   const handleCheckboxChange = (wordId: number) => {
     setSelectedWordIds((prevSelectedWordIds) => {
@@ -25,13 +26,29 @@ const WordsList: React.FC<WordsListProps> = ({ words, onSelectionChange }) => {
     message.success('Selected words have been submitted.');
   };
 
+  const handleSelectAllChange = (e: any) => {
+    const checked = e.target.checked;
+    setSelectAll(checked);
+    if (checked) {
+      const allWordIds = words.map((word) => word.id);
+      setSelectedWordIds(allWordIds);
+    } else {
+      setSelectedWordIds([]);
+    }
+  };
+
   return (
     <div>
       {words.length > 0 ? (
         <>
-          <Button type="primary" onClick={handleConfirm} style={{ marginBottom: '10px' }}>
-            Confirm Selection
-          </Button>
+          <div style={{ marginBottom: '10px' }}>
+            <Checkbox checked={selectAll} onChange={handleSelectAllChange}>
+              Select All
+            </Checkbox>
+            <Button type="primary" onClick={handleConfirm} style={{ marginLeft: '10px' }}>
+              Confirm Selection
+            </Button>
+          </div>
           <List
             bordered
             dataSource={words}

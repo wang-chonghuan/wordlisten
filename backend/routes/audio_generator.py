@@ -34,7 +34,8 @@ def text_to_speech(text, lang='de'):
 @router.post("/generate_audio/")
 async def generate_audio(session: Session = Depends(get_session)):
     try:
-        statement = select(Wordplay).where(Wordplay.audio == None)
+        #statement = select(Wordplay).where(Wordplay.audio == None)
+        statement = select(Wordplay).where((Wordplay.tags == 'busuu-a1-sentence') & (Wordplay.id < 10))
         results = session.exec(statement).all()
         for record in results:
             audio = text_to_speech(record.word)

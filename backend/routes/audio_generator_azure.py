@@ -49,7 +49,8 @@ def azure_text_to_speech(text, lang='de'):
 @router.post("/generate_audio_azure/")
 async def generate_audio_azure(session: Session = Depends(get_session)):
     try:
-        statement = select(Wordplay).where(Wordplay.audio == None)
+        #statement = select(Wordplay).where(Wordplay.audio == None)
+        statement = select(Wordplay)#.where(Wordplay.tags == 'busuu-a1-sentence')
         results = session.exec(statement).all()
         for record in results:
             audio = azure_text_to_speech(record.word)
