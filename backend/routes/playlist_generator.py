@@ -68,11 +68,11 @@ async def generate_custom_audio(word_id_list: WordIdList, session: Session = Dep
         combined_audio = AudioSegment.empty()
 
         for record in results:
-            german_audio = azure_text_to_speech(record.word, lang='de')
+            german_audio = azure_text_to_speech(record.words, lang='de')
             english_audio = translation_to_speech(record.translation, lang='en')
 
             # 拼接：德语 -> 1秒停顿 -> 德语 -> 1秒停顿 -> 英语 -> 1秒停顿
-            combined_audio += german_audio + generate_silence(1000) + english_audio + generate_silence(1000) + german_audio + generate_silence(1000)
+            combined_audio += german_audio + generate_silence(2000) + english_audio + generate_silence(1000) + german_audio + generate_silence(1000)
 
         # 生成文件名：YY-MM-DD-HH-MM-SS
         current_datetime = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")

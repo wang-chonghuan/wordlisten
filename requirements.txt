@@ -1,8 +1,11 @@
 aiosqlite==0.20.0
 annotated-types==0.6.0
 anyio==4.3.0
+azure-cognitiveservices-speech==1.37.0
+cached-property==1.5.2
 certifi==2024.2.2
 charset-normalizer==3.3.2
+chevron==0.14.0
 click==8.1.7
 colorama==0.4.6
 databases==0.9.0
@@ -10,6 +13,8 @@ dnspython==2.6.1
 email_validator==2.1.1
 fastapi==0.111.0
 fastapi-cli==0.0.3
+frozendict==2.4.4
+genanki==0.13.1
 greenlet==3.0.3
 gTTS==2.5.1
 h11==0.14.0

@@ -6,12 +6,11 @@ from typing import Optional
 from datetime import datetime
 from sqlalchemy.dialects.sqlite import BLOB
 from sqlalchemy import JSON, Column
-import databases
+import database
 from contextlib import asynccontextmanager
 import json
 from database import engine, get_session
 
-from routes.audio_generator import router as audio_generator_router
 from routes.audio_generator_azure import router as audio_generator_azure_router
 from routes.json_upload import router as json_upload_router
 from routes.words_crud import router as words_crud_router
@@ -40,7 +39,6 @@ app.add_middleware(
 # 挂载路由
 app.include_router(words_crud_router)
 app.include_router(json_upload_router)
-app.include_router(audio_generator_router)
 app.include_router(playlist_generator_router)
 app.include_router(audio_generator_azure_router)
 

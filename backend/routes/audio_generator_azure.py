@@ -53,7 +53,7 @@ async def generate_audio_azure(session: Session = Depends(get_session)):
         statement = select(Wordplay)#.where(Wordplay.tags == 'busuu-a1-sentence')
         results = session.exec(statement).all()
         for record in results:
-            audio = azure_text_to_speech(record.word)
+            audio = azure_text_to_speech(record.words)
             audio_file_path = os.path.join(audio_files_path, f"{record.id}.mp3")
             audio.export(audio_file_path, format="mp3")
             logger.info(f"Audio file saved: {audio_file_path}")

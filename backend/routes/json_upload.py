@@ -9,7 +9,8 @@ from sqlalchemy import JSON, Column
 import databases
 from contextlib import asynccontextmanager
 import json
-from models import Wordplay
+from pydantic import BaseModel, ValidationError
+from models import WordJson, Wordplay
 from database import engine, get_session
 
 router = APIRouter()
@@ -36,25 +37,19 @@ async def import_json(file: UploadFile = File(...), session: Session = Depends(g
     try:
         for entry in data:
             logger.warning(f"Processing entry: {entry}")
-            if "word" not in entry or "word-translation" not in entry:
-                logger.warning(f"Skipping invalid entry: {entry}")
+            try:
+                word_entry = WordJson(**entry)
+            except ValidationError as e:
+                logger.warning(f"Skipping invalid entry: {entry} - Error: {e}")
                 continue  # Skip invalid entry
 
-            word_id = entry.get("id")
-            word = entry["word"]
-            word_translation = entry["word-translation"]
-            example = entry.get("example", "").strip()
-            example_translation = entry.get("example-translation", "").strip()
-            date_str = entry["date"]
-            datetime_obj = datetime.strptime(date_str, "%Y-%m-%d-%H-%M-%S")
+            datetime_obj = datetime.strptime(word_entry.datetime, "%Y%m%d%H%M%S")
 
             new_word = Wordplay(
-                id=word_id,
-                word=word,
-                word_translation=word_translation,
-                example=example,
-                example_translation=example_translation,
-                tags='busuu-a1-word',
+                id=word_entry.id,
+                words=word_entry.words,
+                translation=word_entry.translation,
+                tags=word_entry.tags,
                 datetime=datetime_obj
             )
             session.add(new_word)
