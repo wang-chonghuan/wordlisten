@@ -1,0 +1,96 @@
+Du kannst nur noch zwei Tage in der WG bleiben.
+Dann musst du umziehen.
+Verstehst du?
+Unsere Heizung ist kaputt.
+Sebastian, Nina, Nawin und ich fahren dann in Urlaub.
+Du bist nicht da? 
+Ich suche mir ein Hotel.
+Das ist sehr teuer. 
+Eine Jugendherberge ist besser.
+Jugendherbergen und Hostels sind nicht so teuer wie ein Hotel.
+Viele junge Leute übernachten dort.
+Und ich frag meine Freunde und Bekannten.
+Vielleicht haben sie ein Zimmer frei.
+--------------------------------------------
+以上多行德语句子，变成一个json数组，其中每个元素的格式是：
+{
+sentence: 原句
+translation: 原句的机械翻译，翻译成英文
+analysis: 原句的语法解析，用英文，其目标格式如下："德语单词或词组 ([翻译，语法成分，格和变位]) 德语单词或词组 ([翻译，语法成分，格和变位]) ..." 
+第四行是空行。
+}
+请严格按照该顺序来输出你的内容，不要增加不相关的东西，因为你输出的内容我要放入程序处理。
+
+
+
+
+
+GPT4O输出如下：
+
+[
+{
+    "sentence": "Du kannst nur noch zwei Tage in der WG bleiben.",
+    "translation": "You can only stay in the shared apartment for two more days.",
+    "analysis": "Du [You, subject, nominative] kannst [can, verb, present tense] nur [only, adverb] noch [still, adverb] zwei [two, adjective] Tage [days, accusative, plural] in [in, preposition] der [the, definite article, dative, feminine] WG [shared apartment, noun, dative] bleiben [stay, verb, infinitive]."
+},
+{
+    "sentence": "Dann musst du umziehen.",
+    "translation": "Then you have to move.",
+    "analysis": "Dann [Then, adverb] musst [must, verb, present tense] du [you, subject, nominative] umziehen [move, verb, infinitive]."
+},
+{
+    "sentence": "Verstehst du?",
+    "translation": "Do you understand?",
+    "analysis": "Verstehst [understand, verb, present tense] du [you, subject, nominative]?"
+},
+{
+    "sentence": "Unsere Heizung ist kaputt.",
+    "translation": "Our heating is broken.",
+    "analysis": "Unsere [our, possessive pronoun, nominative, feminine] Heizung [heating, noun, nominative, feminine] ist [is, verb, present tense] kaputt [broken, adjective]."
+},
+{
+    "sentence": "Sebastian, Nina, Nawin und ich fahren dann in Urlaub.",
+    "translation": "Sebastian, Nina, Nawin, and I are going on vacation then.",
+    "analysis": "Sebastian [Sebastian, proper noun], Nina [Nina, proper noun], Nawin [Nawin, proper noun] und [and, conjunction] ich [I, subject, nominative] fahren [are going, verb, present tense] dann [then, adverb] in [on, preposition] Urlaub [vacation, accusative]."
+},
+{
+    "sentence": "Du bist nicht da?",
+    "translation": "You are not there?",
+    "analysis": "Du [you, subject, nominative] bist [are, verb, present tense] nicht [not, adverb] da [there, adverb]?"
+},
+{
+    "sentence": "Ich suche mir ein Hotel.",
+    "translation": "I will find a hotel.",
+    "analysis": "Ich [I, subject, nominative] suche [will find, verb, present tense] mir [for myself, reflexive pronoun, dative] ein [a, indefinite article, accusative, neuter] Hotel [hotel, noun, accusative, neuter]."
+},
+{
+    "sentence": "Das ist sehr teuer.",
+    "translation": "That is very expensive.",
+    "analysis": "Das [That, subject, nominative, neuter] ist [is, verb, present tense] sehr [very, adverb] teuer [expensive, adjective]."
+},
+{
+    "sentence": "Eine Jugendherberge ist besser.",
+    "translation": "A youth hostel is better.",
+    "analysis": "Eine [A, indefinite article, nominative, feminine] Jugendherberge [youth hostel, noun, nominative, feminine] ist [is, verb, present tense] besser [better, adjective]."
+},
+{
+    "sentence": "Jugendherbergen und Hostels sind nicht so teuer wie ein Hotel.",
+    "translation": "Youth hostels and hostels are not as expensive as a hotel.",
+    "analysis": "Jugendherbergen [Youth hostels, noun, nominative, plural] und [and, conjunction] Hostels [hostels, noun, nominative, plural] sind [are, verb, present tense] nicht [not, adverb] so [as, adverb] teuer [expensive, adjective] wie [as, conjunction] ein [a, indefinite article, nominative, neuter] Hotel [hotel, noun, nominative, neuter]."
+},
+{
+    "sentence": "Viele junge Leute übernachten dort.",
+    "translation": "Many young people stay there.",
+    "analysis": "Viele [many, adjective] junge [young, adjective] Leute [people, noun, nominative, plural] übernachten [stay, verb, present tense] dort [there, adverb]."
+},
+{
+    "sentence": "Und ich frag meine Freunde und Bekannten.",
+    "translation": "And I will ask my friends and acquaintances.",
+    "analysis": "Und [and, conjunction] ich [I, subject, nominative] frag [will ask, verb, present tense, colloquial form of 'frage'] meine [my, possessive pronoun, accusative, plural] Freunde [friends, noun, accusative, plural] und [and, conjunction] Bekannten [acquaintances, noun, accusative, plural]."
+},
+{
+    "sentence": "Vielleicht haben sie ein Zimmer frei.",
+    "translation": "Maybe they have a room available.",
+    "analysis": "Vielleicht [maybe, adverb] haben [have, verb, present tense] sie [they, subject, nominative] ein [a, indefinite article, accusative, neuter] Zimmer [room, noun, accusative, neuter] frei [available, adjective]."
+}
+]

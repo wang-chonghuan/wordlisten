@@ -63,4 +63,4 @@ def create_anki_deck(input_filename, output_filename, audio_files_dir):
 # Replace 'output-etl-4-words.json' with the actual path to your input JSON file if different
 # Replace 'output-anki-deck.apkg' with the desired path for your output Anki deck file
 # Replace 'audio_files' with the actual path to your audio files directory if different
-create_anki_deck('output-etl-4-words.json', 'output-anki-deck.apkg', 'audio_files')
+create_anki_deck('output-etl-3-words.json', 'output-anki-deck.apkg', 'audio_files')

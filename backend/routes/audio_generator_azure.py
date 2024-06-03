@@ -17,7 +17,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # 确保音频文件目录存在
-audio_files_path = os.path.join(os.path.abspath(os.path.dirname(__file__)), '..', 'audio_files')
+audio_files_path = os.path.join(os.path.abspath(os.path.dirname(__file__)), '../../data', 'audio_files')
 if not os.path.exists(audio_files_path):
     os.makedirs(audio_files_path)
 
@@ -27,6 +27,8 @@ def azure_text_to_speech(text, lang='de'):
     service_region = "germanywestcentral"  # 替换为你的服务区域
     
     speech_config = SpeechConfig(subscription=speech_key, region=service_region)
+    speech_config.speech_synthesis_voice_name = "de-DE-KatjaNeural"  # 设置语音为 Katja
+
     audio_config = AudioConfig(filename="temp.wav")
 
     synthesizer = SpeechSynthesizer(speech_config=speech_config, audio_config=audio_config)

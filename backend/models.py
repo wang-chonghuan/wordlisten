@@ -6,9 +6,10 @@ from sqlalchemy.dialects.sqlite import BLOB
 from sqlalchemy import JSON, Column
 
 class WordJson(BaseModel):
-    id: int
-    words: str
+    sentence: str
     translation: str
+    analysis: str
+    id: int
     tags: str
     datetime: str
 
@@ -17,8 +18,9 @@ class WordJson(BaseModel):
 
 class WordplayBase(SQLModel):
     id: Optional[int] = Field(default=None, primary_key=True)
-    words: str
+    sentence: str
     translation: str
+    analysis: Optional[str] = Field(default=None)
     tags: Optional[str] = Field(default=None)
     datetime: datetime
     remark: Optional[dict] = Field(default=None, sa_column=Column(JSON))

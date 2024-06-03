@@ -1,0 +1,107 @@
+[
+  {
+    "sentence": "Du willst dir das Zimmer anschauen?",
+    "translation": "You want to look at the room?",
+    "analysis": "Du ([You, subject, nominative]) willst ([want, verb, present tense]) dir ([yourself, reflexive pronoun, dative]) das ([the, definite article, accusative, neuter]) Zimmer ([room, noun, accusative, neuter]) anschauen ([look at, verb, infinitive])?"
+  },
+  {
+    "sentence": "Ich suche eine neue WG.",
+    "translation": "I am looking for a new shared apartment.",
+    "analysis": "Ich ([I, subject, nominative]) suche ([am looking for, verb, present tense]) eine ([a, indefinite article, accusative, feminine]) neue ([new, adjective, accusative, feminine]) WG ([shared apartment, noun, accusative, feminine])."
+  },
+  {
+    "sentence": "Wir haben telefoniert.",
+    "translation": "We talked on the phone.",
+    "analysis": "Wir ([We, subject, nominative]) haben ([have, auxiliary verb, present tense]) telefoniert ([talked on the phone, verb, past participle])."
+  },
+  {
+    "sentence": "So, das ist die Wohnung.",
+    "translation": "So, this is the apartment.",
+    "analysis": "So ([So, conjunction]) das ([this, demonstrative pronoun, nominative, neuter]) ist ([is, verb, present tense]) die ([the, definite article, nominative, feminine]) Wohnung ([apartment, noun, nominative, feminine])."
+  },
+  {
+    "sentence": "Marvin möchte dein Zimmer sehen.",
+    "translation": "Marvin wants to see your room.",
+    "analysis": "Marvin ([Marvin, proper noun]) möchte ([wants, verb, present tense]) dein ([your, possessive pronoun, accusative, neuter]) Zimmer ([room, noun, accusative, neuter]) sehen ([see, verb, infinitive])."
+  },
+  {
+    "sentence": "Draußen mit Nina.",
+    "translation": "Outside with Nina.",
+    "analysis": "Draußen ([Outside, adverb]) mit ([with, preposition]) Nina ([Nina, proper noun])."
+  },
+  {
+    "sentence": "Fangen wir an!",
+    "translation": "Let's start!",
+    "analysis": "Fangen ([Start, verb, imperative]) wir ([we, subject, nominative]) an ([on, particle])!"
+  },
+  {
+    "sentence": "Die Fenster sind groß und das Zimmer ist hell.",
+    "translation": "The windows are large and the room is bright.",
+    "analysis": "Die ([The, definite article, nominative, plural]) Fenster ([windows, noun, nominative, plural]) sind ([are, verb, present tense]) groß ([large, adjective]) und ([and, conjunction]) das ([the, definite article, nominative, neuter]) Zimmer ([room, noun, nominative, neuter]) ist ([is, verb, present tense]) hell ([bright, adjective])."
+  },
+  {
+    "sentence": "Wie viele Zimmer hat die Wohnung?",
+    "translation": "How many rooms does the apartment have?",
+    "analysis": "Wie ([How, adverb]) viele ([many, adjective]) Zimmer ([rooms, noun, accusative, plural]) hat ([does have, verb, present tense]) die ([the, definite article, nominative, feminine]) Wohnung ([apartment, noun, nominative, feminine])?"
+  },
+  {
+    "sentence": "Es gibt fünf Zimmer, eine Küche und ein Bad.",
+    "translation": "There are five rooms, a kitchen, and a bathroom.",
+    "analysis": "Es ([There, pronoun]) gibt ([are, verb, present tense]) fünf ([five, numeral]) Zimmer ([rooms, noun, accusative, plural]), eine ([a, indefinite article, accusative, feminine]) Küche ([kitchen, noun, accusative, feminine]) und ([and, conjunction]) ein ([a, indefinite article, accusative, neuter]) Bad ([bathroom, noun, accusative, neuter])."
+  },
+  {
+    "sentence": "Los, komm! Komm mal mit.",
+    "translation": "Come on, come! Come along.",
+    "analysis": "Los ([Come on, interjection]), komm ([come, verb, imperative])! Komm ([come, verb, imperative]) mal ([along, particle]) mit ([with, particle])."
+  },
+  {
+    "sentence": "Das Zimmer ist bald frei.",
+    "translation": "The room will be available soon.",
+    "analysis": "Das ([The, definite article, nominative, neuter]) Zimmer ([room, noun, nominative, neuter]) ist ([is, verb, present tense]) bald ([soon, adverb]) frei ([available, adjective])."
+  },
+  {
+    "sentence": "Ganz schön groß.",
+    "translation": "Pretty big.",
+    "analysis": "Ganz ([Pretty, adverb]) schön ([pretty, adverb]) groß ([big, adjective])."
+  },
+  {
+    "sentence": "Wie viele Quadratmeter hat das Zimmer denn?",
+    "translation": "How many square meters does the room have?",
+    "analysis": "Wie ([How, adverb]) viele ([many, adjective]) Quadratmeter ([square meters, noun, accusative, plural]) hat ([does have, verb, present tense]) das ([the, definite article, nominative, neuter]) Zimmer ([room, noun, nominative, neuter]) denn ([then, particle])?"
+  },
+  {
+    "sentence": "Ich glaube, es hat zehn Quadratmeter, oder?",
+    "translation": "I think it has ten square meters, right?",
+    "analysis": "Ich ([I, subject, nominative]) glaube ([think, verb, present tense]), es ([it, pronoun, nominative, neuter]) hat ([has, verb, present tense]) zehn ([ten, numeral]) Quadratmeter ([square meters, noun, accusative, plural]), oder ([right, conjunction])?"
+  },
+  {
+    "sentence": "Es ist sehr ruhig. Keine Autos.",
+    "translation": "It is very quiet. No cars.",
+    "analysis": "Es ([It, pronoun, nominative, neuter]) ist ([is, verb, present tense]) sehr ([very, adverb]) ruhig ([quiet, adjective]). Keine ([No, adjective]) Autos ([cars, noun, nominative, plural])."
+  },
+  {
+    "sentence": "Die Küche ist sehr gemütlich. Hier sitzen wir oft.",
+    "translation": "The kitchen is very cozy. We often sit here.",
+    "analysis": "Die ([The, definite article, nominative, feminine]) Küche ([kitchen, noun, nominative, feminine]) ist ([is, verb, present tense]) sehr ([very, adverb]) gemütlich ([cozy, adjective]). Hier ([Here, adverb]) sitzen ([sit, verb, present tense]) wir ([we, subject, nominative]) oft ([often, adverb])."
+  },
+  {
+    "sentence": "Wie teuer ist das Zimmer?",
+    "translation": "How expensive is the room?",
+    "analysis": "Wie ([How, adverb]) teuer ([expensive, adjective]) ist ([is, verb, present tense]) das ([the, definite article, nominative, neuter]) Zimmer ([room, noun, nominative, neuter])?"
+  },
+  {
+    "sentence": "Die Miete kostet mit Nebenkosten 400 Euro im Monat.",
+    "translation": "The rent costs 400 euros per month with additional costs.",
+    "analysis": "Die ([The, definite article, nominative, feminine]) Miete ([rent, noun, nominative, feminine]) kostet ([costs, verb, present tense]) mit ([with, preposition]) Nebenkosten ([additional costs, noun, dative, plural]) 400 ([400, numeral]) Euro ([euros, noun, accusative, plural]) im ([per, preposition]) Monat ([month, noun, dative, singular])."
+  },
+  {
+    "sentence": "Ich nehme das Zimmer!",
+    "translation": "I'll take the room!",
+    "analysis": "Ich ([I, subject, nominative]) nehme ([take, verb, present tense]) das ([the, definite article, accusative, neuter]) Zimmer ([room, noun, accusative, neuter])!"
+  },
+  {
+    "sentence": "Es kommen noch andere Interessenten. Aber wir rufen dich an.",
+    "translation": "There are other interested parties. But we will call you.",
+    "analysis": "Es ([There, pronoun]) kommen ([are coming, verb, present tense]) noch ([still, adverb]) andere ([other, adjective]) Interessenten ([interested parties, noun, nominative, plural]). Aber ([But, conjunction]) wir ([we, subject, nominative]) rufen ([will call, verb, present tense]) dich ([you, pronoun, accusative]) an ([on, particle])."
+  }
+]
