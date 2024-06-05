@@ -4,8 +4,9 @@ import axios from 'axios';
 
 interface WordDetail {
   id: number;
-  word: string;
+  sentence: string;
   translation: string;
+  analysis: string;
   tags: string | null;
   datetime: string;
   remark: Record<string, any> | null;
@@ -47,8 +48,9 @@ const FetchWordsButton: React.FC<FetchWordsButtonProps> = ({ setWords }) => {
         dataSource={words}
         renderItem={item => (
           <List.Item>
-            <Card title={item.word}>
+            <Card title={item.sentence}>
               <p><strong>Translation:</strong> {item.translation}</p>
+              <p><strong>Analysis:</strong> {item.analysis}</p>
               <p><strong>Tags:</strong> {item.tags}</p>
               <p><strong>Date:</strong> {item.datetime}</p>
               <p><strong>Remark:</strong> {JSON.stringify(item.remark)}</p>

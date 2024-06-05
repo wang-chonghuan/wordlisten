@@ -1,0 +1,62 @@
+[
+    {
+        "sentence": "Hi, Mädels.",
+        "translation": "Hi, girls.",
+        "analysis": "Hi ([Hi, interjection]) Mädels ([girls, noun, plural])"
+    },
+    {
+        "sentence": "Ja, aber alle sagen nur Wolf.",
+        "translation": "Yes, but everyone just says Wolf.",
+        "analysis": "Ja ([Yes, interjection]) aber ([but, conjunction]) alle ([everyone, pronoun, plural]) sagen ([say, verb, present tense, 3rd person plural]) nur ([just, adverb]) Wolf ([Wolf, noun, proper name])"
+    },
+    {
+        "sentence": "Das ist das Wohnzimmer.",
+        "translation": "This is the living room.",
+        "analysis": "Das ([This, pronoun, nominative, singular]) ist ([is, verb, present tense, 3rd person singular]) das ([the, definite article, nominative, singular]) Wohnzimmer ([living room, noun, neuter, nominative, singular])"
+    },
+    {
+        "sentence": "Ja, genau.",
+        "translation": "Yes, exactly.",
+        "analysis": "Ja ([Yes, interjection]) genau ([exactly, adverb])"
+    },
+    {
+        "sentence": "Der Tisch, der ist nicht schön.",
+        "translation": "The table, it is not beautiful.",
+        "analysis": "Der ([The, definite article, nominative, singular]) Tisch ([table, noun, masculine, nominative, singular]) der ([it, pronoun, nominative, singular]) ist ([is, verb, present tense, 3rd person singular]) nicht ([not, adverb]) schön ([beautiful, adjective])"
+    },
+    {
+        "sentence": "Die Stühle sind alt und der Schrank ist viel zu groß.",
+        "translation": "The chairs are old and the cupboard is much too big.",
+        "analysis": "Die ([The, definite article, nominative, plural]) Stühle ([chairs, noun, plural, nominative]) sind ([are, verb, present tense, 3rd person plural]) alt ([old, adjective]) und ([and, conjunction]) der ([the, definite article, nominative, singular]) Schrank ([cupboard, noun, masculine, nominative, singular]) ist ([is, verb, present tense, 3rd person singular]) viel ([much, adverb]) zu ([too, adverb]) groß ([big, adjective])"
+    },
+    {
+        "sentence": "Das Sofa, das stellen wir da an die Wand.",
+        "translation": "The sofa, we put it there against the wall.",
+        "analysis": "Das ([The, definite article, nominative, singular]) Sofa ([sofa, noun, neuter, nominative, singular]) das ([it, pronoun, accusative, singular]) stellen ([put, verb, present tense, 1st person plural]) wir ([we, pronoun, nominative]) da ([there, adverb]) an ([against, preposition]) die ([the, definite article, accusative, singular]) Wand ([wall, noun, feminine, accusative, singular])"
+    },
+    {
+        "sentence": "Und in die Ecke kommt mein Schlagzeug, die Drums.",
+        "translation": "And in the corner goes my drum set, the drums.",
+        "analysis": "Und ([And, conjunction]) in ([in, preposition]) die ([the, definite article, accusative, singular]) Ecke ([corner, noun, feminine, accusative, singular]) kommt ([goes, verb, present tense, 3rd person singular]) mein ([my, possessive pronoun, nominative, singular]) Schlagzeug ([drum set, noun, neuter, nominative, singular]) die ([the, definite article, plural]) Drums ([drums, noun, plural])"
+    },
+    {
+        "sentence": "Das ist doch super.",
+        "translation": "That's really great.",
+        "analysis": "Das ([That, pronoun, nominative, singular]) ist ([is, verb, present tense, 3rd person singular]) doch ([really, adverb]) super ([great, adjective])"
+    },
+    {
+        "sentence": "Dann können wir zusammen jammen.",
+        "translation": "Then we can jam together.",
+        "analysis": "Dann ([Then, adverb]) können ([can, verb, present tense, 1st person plural]) wir ([we, pronoun, nominative]) zusammen ([together, adverb]) jammen ([jam, verb, infinitive])"
+    },
+    {
+        "sentence": "Wir brauchen viele Teppiche, Lampen und Kissen – zum Chillen.",
+        "translation": "We need many rugs, lamps, and pillows – for chilling.",
+        "analysis": "Wir ([We, pronoun, nominative]) brauchen ([need, verb, present tense, 1st person plural]) viele ([many, adjective, plural]) Teppiche ([rugs, noun, plural, accusative]) Lampen ([lamps, noun, plural, accusative]) und ([and, conjunction]) Kissen ([pillows, noun, plural, accusative]) – zum ([for, preposition + article, dative]) Chillen ([chilling, noun, dative, infinitive])"
+    },
+    {
+        "sentence": "Wir melden uns bei dir.",
+        "translation": "We will contact you.",
+        "analysis": "Wir ([We, pronoun, nominative]) melden ([contact, verb, present tense, 1st person plural]) uns ([ourselves, pronoun, reflexive, accusative]) bei ([at, preposition, dative]) dir ([you, pronoun, dative])"
+    }
+]

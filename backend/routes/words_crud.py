@@ -52,8 +52,9 @@ async def read_word(word_id: int, session: Session = Depends(get_session)):
     # 使用新的方式构建WordplayDetail对象，直接分配字段
     word_detail = WordplayDetail(
         id=word.id,
-        words=word.words,
+        sentence=word.sentence,
         translation=word.translation,
+        analysis=word.analysis,
         tags=word.tags,
         datetime=word.datetime,
         remark=word.remark,
@@ -80,8 +81,9 @@ async def read_words_by_tags(tags: str, session: Session = Depends(get_session))
     for word in words:
         word_detail = WordplayDetail(
             id=word.id,
-            words=word.words,
+            sentence=word.sentence,
             translation=word.translation,
+            analysis=word.analysis,
             tags=word.tags,
             datetime=word.datetime,
             remark=word.remark,

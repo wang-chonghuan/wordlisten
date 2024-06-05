@@ -7,6 +7,7 @@ from azure.cognitiveservices.speech import SpeechConfig, SpeechSynthesizer, Audi
 from pydub import AudioSegment
 import os
 import logging
+import random
 from models import Wordplay
 from database import get_session
 
@@ -21,13 +22,25 @@ audio_files_path = os.path.join(os.path.abspath(os.path.dirname(__file__)), '../
 if not os.path.exists(audio_files_path):
     os.makedirs(audio_files_path)
 
+# Helper function to delete all files in a directory
+def clear_audio_files(directory):
+    for filename in os.listdir(directory):
+        file_path = os.path.join(directory, filename)
+        try:
+            if os.path.isfile(file_path) or os.path.islink(file_path):
+                os.unlink(file_path)
+            elif os.path.isdir(file_path):
+                shutil.rmtree(file_path)
+        except Exception as e:
+            logger.error(f"Failed to delete {file_path}. Reason: {e}")
+
 # Helper function to convert text to speech using Azure Cognitive Services
-def azure_text_to_speech(text, lang='de'):
+def azure_text_to_speech(text, voice):
     speech_key = "c4db500f6e5e4c6ca166d8fd507b6e34"  # 替换为你的 Azure 订阅密钥
     service_region = "germanywestcentral"  # 替换为你的服务区域
     
     speech_config = SpeechConfig(subscription=speech_key, region=service_region)
-    speech_config.speech_synthesis_voice_name = "de-DE-KatjaNeural"  # 设置语音为 Katja
+    speech_config.speech_synthesis_voice_name = voice
 
     audio_config = AudioConfig(filename="temp.wav")
 
@@ -50,12 +63,15 @@ def azure_text_to_speech(text, lang='de'):
 # Route to generate audio for records with empty audio fields using Azure Cognitive Services
 @router.post("/generate_audio_azure/")
 async def generate_audio_azure(session: Session = Depends(get_session)):
+    # 千万不要清空 audio_files_path 目录下的所有文件
+    # clear_audio_files(audio_files_path)
+
     try:
-        #statement = select(Wordplay).where(Wordplay.audio == None)
-        statement = select(Wordplay)#.where(Wordplay.tags == 'busuu-a1-sentence')
-        results = session.exec(statement).all()
+        statement = select(Wordplay).where(Wordplay.audio == None)
+        results = session.exec(statement)
         for record in results:
-            audio = azure_text_to_speech(record.words)
+            voice = "de-DE-GiselaNeural" if record.id % 2 != 0 else "de-DE-KlarissaNeural"
+            audio = azure_text_to_speech(record.sentence, voice)
             audio_file_path = os.path.join(audio_files_path, f"{record.id}.mp3")
             audio.export(audio_file_path, format="mp3")
             logger.info(f"Audio file saved: {audio_file_path}")

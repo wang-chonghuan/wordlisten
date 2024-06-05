@@ -7,6 +7,7 @@ import GenerateAudioButton from '../components/GenerateAudioButton';
 import SearchWordInput from '../components/SearchWordInput';
 import AudioPlayerButton from '../components/AudioPlayerButton';
 import WordsList from '../components/WordsList';
+import GenerateAnkiPackageButton from '../components/GenerateAnkiPackageButton';
 
 const Dashboard: React.FC = () => {
   const [words, setWords] = useState<any[]>([]);
@@ -47,11 +48,14 @@ const Dashboard: React.FC = () => {
       <Card title="File Upload">
         <FileUploadButton />
       </Card>
-      <Card title="Fetch Words">
-        <FetchWordsButton setWords={setWords} />
-      </Card>
       <Card title="Generate Audio">
         <GenerateAudioButton fetchWords={() => setWords} />
+      </Card>
+      <Card title="Generate Audio">
+        <GenerateAnkiPackageButton fetchWords={() => setWords} />
+      </Card>
+      <Card title="Fetch Words">
+        <FetchWordsButton setWords={setWords} />
       </Card>
       <Card title="Search Word">
         <SearchWordInput setWordDetails={setWordDetails} />
@@ -60,8 +64,9 @@ const Dashboard: React.FC = () => {
         {wordDetails ? (
           <div>
             <p>ID: {wordDetails.id}</p>
-            <p>Word: {wordDetails.word}</p>
+            <p>Word: {wordDetails.sentence}</p>
             <p>Translation: {wordDetails.translation}</p>
+            <p>Translation: {wordDetails.analysis}</p>
             <p>Flag: {wordDetails.flag}</p>
             <p>DateTime: {wordDetails.datetime}</p>
             <p>Remark: {wordDetails.remark ? JSON.stringify(wordDetails.remark) : 'None'}</p>

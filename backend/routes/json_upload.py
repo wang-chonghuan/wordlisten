@@ -46,9 +46,9 @@ async def import_json(file: UploadFile = File(...), session: Session = Depends(g
             datetime_obj = datetime.strptime(word_entry.datetime, "%Y%m%d%H%M%S")
 
             new_word = Wordplay(
-                id=word_entry.id,
-                words=word_entry.words,
+                sentence=word_entry.sentence,
                 translation=word_entry.translation,
+                analysis=word_entry.analysis,
                 tags=word_entry.tags,
                 datetime=datetime_obj
             )

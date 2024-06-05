@@ -2,7 +2,7 @@ import json
 from datetime import datetime
 
 # 定义文件路径
-input_file = 'etl-output-1.json'
+input_file = 'etl-output-1-nw-1-6-4.json'
 output_file = 'etl-output-2.json'
 
 # 读取输入文件内容

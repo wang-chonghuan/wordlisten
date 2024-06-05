@@ -1,170 +1,138 @@
 [
     {
-        "sentence": "Du willst dir das Zimmer anschauen?",
-        "translation": "You want to look at the room?",
-        "analysis": "Du ([You, subject, nominative]) willst ([want, verb, present tense]) dir ([yourself, reflexive pronoun, dative]) das ([the, definite article, accusative, neuter]) Zimmer ([room, noun, accusative, neuter]) anschauen ([look at, verb, infinitive])?",
+        "sentence": "Vielleicht bald dein Zimmer?",
+        "translation": "Maybe soon your room?",
+        "analysis": "Vielleicht ([Maybe, adverb]) bald ([soon, adverb]) dein ([your, possessive pronoun, nominative, singular]) Zimmer ([room, noun, neuter, nominative, singular])",
         "id": 1,
-        "tags": "nw-1-6-2",
-        "datetime": "20240602174722"
+        "tags": "mw-1-6-4",
+        "datetime": "20240604134957"
     },
     {
-        "sentence": "Ich suche eine neue WG.",
-        "translation": "I am looking for a new shared apartment.",
-        "analysis": "Ich ([I, subject, nominative]) suche ([am looking for, verb, present tense]) eine ([a, indefinite article, accusative, feminine]) neue ([new, adjective, accusative, feminine]) WG ([shared apartment, noun, accusative, feminine]).",
+        "sentence": "Ist das auch deine?",
+        "translation": "Is that also yours?",
+        "analysis": "Ist ([Is, verb, present tense, 3rd person singular]) das ([that, pronoun, nominative, singular]) auch ([also, adverb]) deine ([yours, possessive pronoun, nominative, singular])",
         "id": 2,
-        "tags": "nw-1-6-2",
-        "datetime": "20240602174722"
+        "tags": "mw-1-6-4",
+        "datetime": "20240604134957"
     },
     {
-        "sentence": "Wir haben telefoniert.",
-        "translation": "We talked on the phone.",
-        "analysis": "Wir ([We, subject, nominative]) haben ([have, auxiliary verb, present tense]) telefoniert ([talked on the phone, verb, past participle]).",
+        "sentence": "Nein, das ist meine.",
+        "translation": "No, that is mine.",
+        "analysis": "Nein ([No, interjection]) das ([that, pronoun, nominative, singular]) ist ([is, verb, present tense, 3rd person singular]) meine ([mine, possessive pronoun, nominative, singular])",
         "id": 3,
-        "tags": "nw-1-6-2",
-        "datetime": "20240602174722"
+        "tags": "mw-1-6-4",
+        "datetime": "20240604134957"
     },
     {
-        "sentence": "So, das ist die Wohnung.",
-        "translation": "So, this is the apartment.",
-        "analysis": "So ([So, conjunction]) das ([this, demonstrative pronoun, nominative, neuter]) ist ([is, verb, present tense]) die ([the, definite article, nominative, feminine]) Wohnung ([apartment, noun, nominative, feminine]).",
+        "sentence": "Die habe ich schon gesucht.",
+        "translation": "I have already looked for it.",
+        "analysis": "Die ([it, pronoun, accusative, singular]) habe ([have, verb, present tense, 1st person singular]) ich ([I, pronoun, nominative]) schon ([already, adverb]) gesucht ([looked for, verb, past participle])",
         "id": 4,
-        "tags": "nw-1-6-2",
-        "datetime": "20240602174722"
+        "tags": "mw-1-6-4",
+        "datetime": "20240604134957"
     },
     {
-        "sentence": "Marvin möchte dein Zimmer sehen.",
-        "translation": "Marvin wants to see your room.",
-        "analysis": "Marvin ([Marvin, proper noun]) möchte ([wants, verb, present tense]) dein ([your, possessive pronoun, accusative, neuter]) Zimmer ([room, noun, accusative, neuter]) sehen ([see, verb, infinitive]).",
+        "sentence": "Ist das mein Bad?",
+        "translation": "Is this my bathroom?",
+        "analysis": "Ist ([Is, verb, present tense, 3rd person singular]) das ([this, pronoun, nominative, singular]) mein ([my, possessive pronoun, nominative, singular]) Bad ([bathroom, noun, neuter, nominative, singular])",
         "id": 5,
-        "tags": "nw-1-6-2",
-        "datetime": "20240602174722"
+        "tags": "mw-1-6-4",
+        "datetime": "20240604134957"
     },
     {
-        "sentence": "Draußen mit Nina.",
-        "translation": "Outside with Nina.",
-        "analysis": "Draußen ([Outside, adverb]) mit ([with, preposition]) Nina ([Nina, proper noun]).",
+        "sentence": "Wir haben nur ein Bad.",
+        "translation": "We only have one bathroom.",
+        "analysis": "Wir ([We, pronoun, nominative]) haben ([have, verb, present tense, 1st person plural]) nur ([only, adverb]) ein ([one, indefinite article, accusative, singular]) Bad ([bathroom, noun, neuter, accusative, singular])",
         "id": 6,
-        "tags": "nw-1-6-2",
-        "datetime": "20240602174722"
+        "tags": "mw-1-6-4",
+        "datetime": "20240604134957"
     },
     {
-        "sentence": "Fangen wir an!",
-        "translation": "Let's start!",
-        "analysis": "Fangen ([Start, verb, imperative]) wir ([we, subject, nominative]) an ([on, particle])!",
+        "sentence": "Hier duschen alle.",
+        "translation": "Everyone showers here.",
+        "analysis": "Hier ([Here, adverb]) duschen ([shower, verb, present tense, 3rd person plural]) alle ([everyone, pronoun, nominative, plural])",
         "id": 7,
-        "tags": "nw-1-6-2",
-        "datetime": "20240602174722"
+        "tags": "mw-1-6-4",
+        "datetime": "20240604134957"
     },
     {
-        "sentence": "Die Fenster sind groß und das Zimmer ist hell.",
-        "translation": "The windows are large and the room is bright.",
-        "analysis": "Die ([The, definite article, nominative, plural]) Fenster ([windows, noun, nominative, plural]) sind ([are, verb, present tense]) groß ([large, adjective]) und ([and, conjunction]) das ([the, definite article, nominative, neuter]) Zimmer ([room, noun, nominative, neuter]) ist ([is, verb, present tense]) hell ([bright, adjective]).",
+        "sentence": "Hier ist es nicht sehr sauber.",
+        "translation": "It is not very clean here.",
+        "analysis": "Hier ([Here, adverb]) ist ([is, verb, present tense, 3rd person singular]) es ([it, pronoun, nominative, singular]) nicht ([not, adverb]) sehr ([very, adverb]) sauber ([clean, adjective])",
         "id": 8,
-        "tags": "nw-1-6-2",
-        "datetime": "20240602174722"
+        "tags": "mw-1-6-4",
+        "datetime": "20240604134957"
     },
     {
-        "sentence": "Wie viele Zimmer hat die Wohnung?",
-        "translation": "How many rooms does the apartment have?",
-        "analysis": "Wie ([How, adverb]) viele ([many, adjective]) Zimmer ([rooms, noun, accusative, plural]) hat ([does have, verb, present tense]) die ([the, definite article, nominative, feminine]) Wohnung ([apartment, noun, nominative, feminine])?",
+        "sentence": "Wie oft putzt ihr denn?",
+        "translation": "How often do you clean then?",
+        "analysis": "Wie ([How, adverb]) oft ([often, adverb]) putzt ([clean, verb, present tense, 2nd person plural]) ihr ([you, pronoun, nominative, plural]) denn ([then, particle])",
         "id": 9,
-        "tags": "nw-1-6-2",
-        "datetime": "20240602174722"
+        "tags": "mw-1-6-4",
+        "datetime": "20240604134957"
     },
     {
-        "sentence": "Es gibt fünf Zimmer, eine Küche und ein Bad.",
-        "translation": "There are five rooms, a kitchen, and a bathroom.",
-        "analysis": "Es ([There, pronoun]) gibt ([are, verb, present tense]) fünf ([five, numeral]) Zimmer ([rooms, noun, accusative, plural]), eine ([a, indefinite article, accusative, feminine]) Küche ([kitchen, noun, accusative, feminine]) und ([and, conjunction]) ein ([a, indefinite article, accusative, neuter]) Bad ([bathroom, noun, accusative, neuter]).",
+        "sentence": "Das kommt drauf an.",
+        "translation": "That depends.",
+        "analysis": "Das ([That, pronoun, nominative, singular]) kommt ([depends, verb, present tense, 3rd person singular]) drauf ([on it, adverb]) an ([on, particle])",
         "id": 10,
-        "tags": "nw-1-6-2",
-        "datetime": "20240602174722"
+        "tags": "mw-1-6-4",
+        "datetime": "20240604134957"
     },
     {
-        "sentence": "Los, komm! Komm mal mit.",
-        "translation": "Come on, come! Come along.",
-        "analysis": "Los ([Come on, interjection]), komm ([come, verb, imperative])! Komm ([come, verb, imperative]) mal ([along, particle]) mit ([with, particle]).",
+        "sentence": "Ist es dreckig, dann putzen wir.",
+        "translation": "If it is dirty, then we clean.",
+        "analysis": "Ist ([Is, verb, present tense, 3rd person singular]) es ([it, pronoun, nominative, singular]) dreckig ([dirty, adjective]) dann ([then, adverb]) putzen ([clean, verb, present tense, 1st person plural]) wir ([we, pronoun, nominative])",
         "id": 11,
-        "tags": "nw-1-6-2",
-        "datetime": "20240602174722"
+        "tags": "mw-1-6-4",
+        "datetime": "20240604134957"
     },
     {
-        "sentence": "Das Zimmer ist bald frei.",
-        "translation": "The room will be available soon.",
-        "analysis": "Das ([The, definite article, nominative, neuter]) Zimmer ([room, noun, nominative, neuter]) ist ([is, verb, present tense]) bald ([soon, adverb]) frei ([available, adjective]).",
+        "sentence": "Wie sind die Nachbarn? Die sind nicht zu laut, oder?",
+        "translation": "How are the neighbors? They are not too loud, are they?",
+        "analysis": "Wie ([How, adverb]) sind ([are, verb, present tense, 3rd person plural]) die ([the, definite article, nominative, plural]) Nachbarn ([neighbors, noun, plural, nominative]) Die ([They, pronoun, nominative, plural]) sind ([are, verb, present tense, 3rd person plural]) nicht ([not, adverb]) zu ([too, adverb]) laut ([loud, adjective]) oder ([are they, particle])",
         "id": 12,
-        "tags": "nw-1-6-2",
-        "datetime": "20240602174722"
+        "tags": "mw-1-6-4",
+        "datetime": "20240604134957"
     },
     {
-        "sentence": "Ganz schön groß.",
-        "translation": "Pretty big.",
-        "analysis": "Ganz ([Pretty, adverb]) schön ([pretty, adverb]) groß ([big, adjective]).",
+        "sentence": "Doch! Die sind superlaut und nicht nett!",
+        "translation": "Yes! They are super loud and not nice!",
+        "analysis": "Doch ([Yes, interjection]) Die ([They, pronoun, nominative, plural]) sind ([are, verb, present tense, 3rd person plural]) superlaut ([super loud, adjective]) und ([and, conjunction]) nicht ([not, adverb]) nett ([nice, adjective])",
         "id": 13,
-        "tags": "nw-1-6-2",
-        "datetime": "20240602174722"
+        "tags": "mw-1-6-4",
+        "datetime": "20240604134957"
     },
     {
-        "sentence": "Wie viele Quadratmeter hat das Zimmer denn?",
-        "translation": "How many square meters does the room have?",
-        "analysis": "Wie ([How, adverb]) viele ([many, adjective]) Quadratmeter ([square meters, noun, accusative, plural]) hat ([does have, verb, present tense]) das ([the, definite article, nominative, neuter]) Zimmer ([room, noun, nominative, neuter]) denn ([then, particle])?",
+        "sentence": "Was für eine Katastrophe!",
+        "translation": "What a catastrophe!",
+        "analysis": "Was ([What, pronoun]) für ([a, preposition]) eine ([a, indefinite article, nominative, singular]) Katastrophe ([catastrophe, noun, feminine, nominative, singular])",
         "id": 14,
-        "tags": "nw-1-6-2",
-        "datetime": "20240602174722"
+        "tags": "mw-1-6-4",
+        "datetime": "20240604134957"
     },
     {
-        "sentence": "Ich glaube, es hat zehn Quadratmeter, oder?",
-        "translation": "I think it has ten square meters, right?",
-        "analysis": "Ich ([I, subject, nominative]) glaube ([think, verb, present tense]), es ([it, pronoun, nominative, neuter]) hat ([has, verb, present tense]) zehn ([ten, numeral]) Quadratmeter ([square meters, noun, accusative, plural]), oder ([right, conjunction])?",
+        "sentence": "Ich glaube, wir finden nie einen Mieter für Nawins Zimmer!",
+        "translation": "I think we will never find a tenant for Nawin's room!",
+        "analysis": "Ich ([I, pronoun, nominative]) glaube ([think, verb, present tense, 1st person singular]) wir ([we, pronoun, nominative]) finden ([find, verb, present tense, 1st person plural]) nie ([never, adverb]) einen ([a, indefinite article, accusative, singular]) Mieter ([tenant, noun, masculine, accusative, singular]) für ([for, preposition, accusative]) Nawins ([Nawin's, possessive noun, genitive]) Zimmer ([room, noun, neuter, accusative, singular])",
         "id": 15,
-        "tags": "nw-1-6-2",
-        "datetime": "20240602174722"
+        "tags": "mw-1-6-4",
+        "datetime": "20240604134957"
     },
     {
-        "sentence": "Es ist sehr ruhig. Keine Autos.",
-        "translation": "It is very quiet. No cars.",
-        "analysis": "Es ([It, pronoun, nominative, neuter]) ist ([is, verb, present tense]) sehr ([very, adverb]) ruhig ([quiet, adjective]). Keine ([No, adjective]) Autos ([cars, noun, nominative, plural]).",
+        "sentence": "Die Sprachschule.",
+        "translation": "The language school.",
+        "analysis": "Die ([The, definite article, nominative, singular]) Sprachschule ([language school, noun, feminine, nominative, singular])",
         "id": 16,
-        "tags": "nw-1-6-2",
-        "datetime": "20240602174722"
+        "tags": "mw-1-6-4",
+        "datetime": "20240604134957"
     },
     {
-        "sentence": "Die Küche ist sehr gemütlich. Hier sitzen wir oft.",
-        "translation": "The kitchen is very cozy. We often sit here.",
-        "analysis": "Die ([The, definite article, nominative, feminine]) Küche ([kitchen, noun, nominative, feminine]) ist ([is, verb, present tense]) sehr ([very, adverb]) gemütlich ([cozy, adjective]). Hier ([Here, adverb]) sitzen ([sit, verb, present tense]) wir ([we, subject, nominative]) oft ([often, adverb]).",
+        "sentence": "Was ist denn?",
+        "translation": "What is it then?",
+        "analysis": "Was ([What, pronoun]) ist ([is, verb, present tense, 3rd person singular]) denn ([then, particle])",
         "id": 17,
-        "tags": "nw-1-6-2",
-        "datetime": "20240602174722"
-    },
-    {
-        "sentence": "Wie teuer ist das Zimmer?",
-        "translation": "How expensive is the room?",
-        "analysis": "Wie ([How, adverb]) teuer ([expensive, adjective]) ist ([is, verb, present tense]) das ([the, definite article, nominative, neuter]) Zimmer ([room, noun, nominative, neuter])?",
-        "id": 18,
-        "tags": "nw-1-6-2",
-        "datetime": "20240602174722"
-    },
-    {
-        "sentence": "Die Miete kostet mit Nebenkosten 400 Euro im Monat.",
-        "translation": "The rent costs 400 euros per month with additional costs.",
-        "analysis": "Die ([The, definite article, nominative, feminine]) Miete ([rent, noun, nominative, feminine]) kostet ([costs, verb, present tense]) mit ([with, preposition]) Nebenkosten ([additional costs, noun, dative, plural]) 400 ([400, numeral]) Euro ([euros, noun, accusative, plural]) im ([per, preposition]) Monat ([month, noun, dative, singular]).",
-        "id": 19,
-        "tags": "nw-1-6-2",
-        "datetime": "20240602174722"
-    },
-    {
-        "sentence": "Ich nehme das Zimmer!",
-        "translation": "I'll take the room!",
-        "analysis": "Ich ([I, subject, nominative]) nehme ([take, verb, present tense]) das ([the, definite article, accusative, neuter]) Zimmer ([room, noun, accusative, neuter])!",
-        "id": 20,
-        "tags": "nw-1-6-2",
-        "datetime": "20240602174722"
-    },
-    {
-        "sentence": "Es kommen noch andere Interessenten. Aber wir rufen dich an.",
-        "translation": "There are other interested parties. But we will call you.",
-        "analysis": "Es ([There, pronoun]) kommen ([are coming, verb, present tense]) noch ([still, adverb]) andere ([other, adjective]) Interessenten ([interested parties, noun, nominative, plural]). Aber ([But, conjunction]) wir ([we, subject, nominative]) rufen ([will call, verb, present tense]) dich ([you, pronoun, accusative]) an ([on, particle]).",
-        "id": 21,
-        "tags": "nw-1-6-2",
-        "datetime": "20240602174722"
+        "tags": "mw-1-6-4",
+        "datetime": "20240604134957"
     }
 ]

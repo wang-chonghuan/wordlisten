@@ -15,6 +15,7 @@ from routes.audio_generator_azure import router as audio_generator_azure_router
 from routes.json_upload import router as json_upload_router
 from routes.words_crud import router as words_crud_router
 from routes.playlist_generator import router as playlist_generator_router
+from routes.anki import router as anki_router
 
 # 设置日志
 logging.basicConfig(level=logging.INFO)
@@ -41,6 +42,7 @@ app.include_router(words_crud_router)
 app.include_router(json_upload_router)
 app.include_router(playlist_generator_router)
 app.include_router(audio_generator_azure_router)
+app.include_router(anki_router)
 
 
 # 运行应用
